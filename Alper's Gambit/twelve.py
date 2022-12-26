@@ -8,7 +8,6 @@ from random import randint as ri
 papers = [1,2,3,4,6,12]
 emre = []
 tan = []
-money = 100
 
 def papersPlease(person=list, t=int):
     i = 2
@@ -23,6 +22,8 @@ def gambit(player,bot):
     return deckP,deckB
 
 while True:
+    bal = open("balance.txt", "r+")
+    money = int(bal.read())
     bet = int(input(f'You have ${money} How much you want to bet?: '))
     if bet>money:
         print("You can't bet more money than you have.")
@@ -58,6 +59,10 @@ while True:
     if check == 'f':
         money -= int(bet/2)
         print(f'Folded. You got your ${bet/2} back')
+
+    bal.truncate(0)
+    bal.seek(0)
+    bal.write(str(money))
 
     emre = []
     tan = []
