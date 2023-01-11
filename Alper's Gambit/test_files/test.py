@@ -7,7 +7,7 @@ def readJson():
         return type(balance_list)
 
 while True:
-    menu = input('what u wanna do babe?: ')
+    menu = input('what u wanna do?: ')
     match menu:
         case '1':
             username = input('username: ')
