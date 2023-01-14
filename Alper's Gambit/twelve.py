@@ -24,7 +24,7 @@ def gambit(player,bot):
 # LOGIN
 
 try:
-    with open('testList.txt','r') as f:
+    with open('balList.txt','r') as f:
         fileRead = f.read()
         fileRead = fileRead.replace("\'", "\"")
         user_list = json.loads(fileRead)
@@ -95,7 +95,7 @@ while True:
             print(f'Folded. You got your ${bet/2} back')
 
         user_list[user] = money
-        with open('testList.txt','w') as f:
+        with open('balList.txt','w') as f:
             f.write(str(user_list))
 
         emre = []
