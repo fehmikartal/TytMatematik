@@ -8,3 +8,4 @@
 ## Güncel Oyunlarımız
 - ### Alper's Gambit
  Alper isimli bir gencin arkadaşları Emre ve Tan'a hazırladığı 12'nin bölenleri oyununu bir **kumara dönüştürerek** sizler için yepyeni bir kumar oyunu yarattık! [Hemen deneyimleyin](https://github.com/fehmikartal/TytMatematik/blob/main/Alper's%20Gambit/twelve.py).
+***Yasal Not:** Türkiye'de kumar oynamak yasadışıdır. Kumar, tehlikeli ve bağımlılık yapıcıdır. Bu programda hiçbir şekilde gerçek para kullanılmamaktadır, program eğitim amaçlı yapılmıştır.*
